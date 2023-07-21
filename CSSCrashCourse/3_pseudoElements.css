@@ -1,0 +1,32 @@
+/* tambien funciona con fisrt of type, nth-of-type(even) */
+/* p:first-child */
+p:last-of-type{
+    color: orange;
+}
+input:focus {
+    outline: 2px solid blue;
+}    
+
+input:invalid:not(:focus){
+    outline: 2px solid red;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green
+}
+
+/* Pseudo elements */
+p::first-letter{
+    font-size: 2em;
+}
+
+p::before{
+    content: ">";
+}
+
+p::after {
+    content: "!"
+}

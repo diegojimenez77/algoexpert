@@ -1,0 +1,11 @@
+/* combinator */
+footer > p{
+    color:red;
+}
+
+h2 ~ p {
+    color: blue;
+}
+a[href^="https://algoexpert.io"]{
+    color: green;
+}

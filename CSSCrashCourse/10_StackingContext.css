@@ -1,0 +1,63 @@
+/* CSS Diego
+
+#red{
+    font-size: 2rem;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: red;
+    color: white;
+}
+
+#blue{
+    position:absolute;
+    top:100px;
+    left:100px;
+    font-size: 2rem;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
+}
+
+#green{
+    position:absolute;
+    top:180px;
+    left: 30px;
+    font-size: 2rem;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: green;
+    color: white;
+} */
+
+#red{
+    z-index:1;
+    background-color: red;
+}
+
+#blue{
+    z-index: 2;
+    top:100px;
+    left:150px;
+    background-color: blue;
+}
+#green{
+    z-index: 3;
+    top:200px;
+    left:40px;
+    background-color: green;
+}
+
+div{
+    position: fixed;
+    width:200px;
+    height:200px;
+    border:5px solid black;
+    padding:0.5rem;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+/* Declarations 
+
+property: value;
+color: red;
+
+Rulesets
+h1, p{
+    color: blue;
+    margin: 10px;
+}
+
+h1, p son los selectores o selectors
+lo que esta en {} es el declaration block
+
+Los omentarios se hacen con ctrl+/ o con /**
+
+Linking to HTML
+<link rel="stylesheet" href="style.css"/>
+
+default font size is 16px.
+*/
+
+h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+p{
+    background-color: darkblue;
+    color: white;
+    min-height: 100px;
+    font-size:1.25rem;
+    width: 30%;
+}
