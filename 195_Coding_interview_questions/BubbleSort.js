@@ -12,3 +12,4 @@ do{
     }
 } while(unordered)
 console.log(array)
+console.log(array.sort())
