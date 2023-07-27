@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+#algoexpert{
+    width: 300px;
+    height: 200px;
+    border: 10px dashed rgb(255, 0, 0);
+    padding: 10px;
+    background-image: url(/algoexpert/assets/pictures_volkswagen_golf_1992_5.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: content-box;
+    background-position-y: center;
+  
+}
+
+#html{
+    width: 300px;
+    height: 200px;
+    border: 10px dashed rgb(255, 0, 0);
+    padding: 10px;
+    background-image: url(/algoexpert/assets/volkswagen-golf-gti-1h-2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: content-box;
+    background-position-y: center;
+
+}
+
+#css{
+    width: 300px;
+    height: 200px;
+    border: 10px dashed black;
+    padding: 10px;
+    background-image: url(/algoexpert/assets/golfmk2-5.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: content-box;
+    background-position-y: center;
+}
