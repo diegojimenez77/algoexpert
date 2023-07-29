@@ -1,0 +1,44 @@
+div {
+    background-color: lightblue;
+    width: 30%;
+    height: 6em;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 4em;
+    /* transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s; */
+    transition: width 1s ease 1s, transform 1s ease 0s;
+}
+
+div:hover{
+    width: 50%;
+    transform: rotate(180deg);
+}
+
+.anime {
+    background-color: rgb(202, 13, 249);
+    width: 30%;
+    height: 6em;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 4em;
+    /* animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running; */
+    /* animation-timing-function: cubic-bezier(); */
+    animation: move 3s forwards reverse 2 running steps(3);
+}
+@keyframes move {
+    50% {
+        transform: translate(200px, 0px);
+    }
+
+    100% {
+        transform: translate(200px, 300px);
+    }
+}
